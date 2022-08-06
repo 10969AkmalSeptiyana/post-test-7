@@ -17,9 +17,13 @@
   </head>
   <body>
     <div class="container">
-      <h1>Login to your account</h1>
+      <h1>Register</h1>
       <div class="form-container">
         <form action="">
+          <div class="input-group">
+            <label for="username">Username</label>
+            <input type="text" id="username" name="username" required />
+          </div>
           <div class="input-group">
             <label for="email">Email address</label>
             <input type="email" id="email" name="email" required />
@@ -28,9 +32,13 @@
             <label for="password">Password</label>
             <input type="password" id="password" name="password" required />
           </div>
-          <button type="submit" class="login-btn">Login</button>
+          <div class="input-group">
+            <label for="password">Confirm Password</label>
+            <input type="password" id="password" name="password" required />
+          </div>
+          <button type="submit" class="login-btn">Create Account</button>
         </form>
-        <p>Don't have an account? <a href="register.html">Register</a></p>
+        <p>Already have an account? <a href="login.html">Login</a></p>
       </div>
     </div>
   </body>

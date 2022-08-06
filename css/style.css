@@ -75,10 +75,18 @@ input:focus {
   font-weight: 500;
   padding: 8px 0;
   border-radius: 0.375rem;
-  margin-top: 50px;
+  margin-top: 20px;
   color: #fff;
   background-color: #4f46e5;
   font-family: "Open Sans", sans-serif;
+}
+
+p {
+  margin-top: 20px;
+}
+
+p a {
+  color: #4f46e5;
 }
 
 @media screen and (min-width: 448px) {
